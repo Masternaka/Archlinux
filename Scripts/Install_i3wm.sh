@@ -94,6 +94,41 @@ sudo pacman -S --needed --noconfirm
         pulseaudio
         pavucontrol
 
+# Installation de yay (gestionnaire AUR)
+print_info "=========================================="
+print_info "Installation de yay - Gestionnaire AUR"
+print_info "=========================================="
+if ! command -v yay &> /dev/null; then
+    print_info "Installation de yay..."
+    sudo pacman -S --needed --noconfirm git base-devel
+    TEMP_DIR_YAY=$(mktemp -d)
+    cd "$TEMP_DIR_YAY"
+    git clone https://aur.archlinux.org/yay.git
+    cd yay
+    makepkg -si --noconfirm
+    cd ~
+    rm -rf "$TEMP_DIR_YAY"
+    print_info "yay installé avec succès"
+else
+    print_info "yay est déjà installé"
+fi
+
+# Installation des paquets AUR
+print_info "=========================================="
+print_info "Installation des paquets AUR"
+print_info "=========================================="
+# Ajoutez ici les paquets AUR que vous souhaitez installer
+yay -S --needed --noconfirm
+        catppuccin-gtk-theme-mocha
+        catppuccin-qt5ct-git
+        kvantum-theme-catppuccin-git
+        catppuccin-cursors-mocha
+        papirus-folders-catppuccin-git
+
+print_info "Aucun paquet AUR à installer pour le moment"
+print_info "Modifiez cette section pour ajouter vos paquets AUR préférés"
+
+# Installation des paquets - Terminal et outils
 print_info "=========================================="
 print_info "Installation des paquets - Terminal et outils"
 print_info "=========================================="
