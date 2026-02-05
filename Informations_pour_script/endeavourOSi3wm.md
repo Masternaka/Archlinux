@@ -1,0 +1,50 @@
+- **acpi** : Affiche des informations sur la gestion de l’alimentation (batterie, température, etc.).
+- **arandr** : Interface graphique pour configurer les écrans (XRandR).
+- **arc-gtk-theme-eos** : Thème graphique Arc adapté pour EndeavourOS.
+- **archlinux-xdg-menu** : Génère des menus XDG pour divers environnements de bureau.
+- **awesome-terminal-fonts** : Polices pour terminaux avec des icônes et symboles spéciaux.
+- **brightnessctl** : Permet de régler la luminosité de l’écran en ligne de commande.
+- **dex** : Lanceur de fichiers .desktop (autostart).
+- **dmenu** : Lanceur d’applications minimaliste en ligne de commande.
+- **dunst** : Gestionnaire de notifications léger.
+- **eos-settings-i3wm** : Paramètres spécifiques à i3wm pour EndeavourOS.
+- **endeavouros-xfce4-terminal-colors** : Thèmes de couleurs pour le terminal XFCE4 sur EndeavourOS.
+- **eos-lightdm-slick-theme** : Thème visuel pour l’écran de connexion LightDM sur EndeavourOS.
+- **eos-qogir-icons** : Thème d’icônes Qogir adapté pour EndeavourOS.
+- **feh** : Visionneuse d’images légère, souvent utilisée pour définir le fond d’écran.
+- **galculator** : Calculatrice graphique GTK.
+- **gvfs** : Fournit un accès virtuel à divers systèmes de fichiers (nécessaire pour Thunar, etc.).
+- **gvfs-afc** : Support pour les appareils Apple via GVFS.
+- **gvfs-gphoto2** : Support pour les appareils photo numériques via GVFS.
+- **gvfs-mtp** : Support pour les appareils Android (MTP) via GVFS.
+- **gvfs-nfs** : Support pour les partages NFS via GVFS.
+- **gvfs-smb** : Support pour les partages Samba/Windows via GVFS.
+- **i3-wm** : Gestionnaire de fenêtres en mosaïque i3.
+- **i3blocks** : Barre d’état configurable pour i3wm.
+- **i3lock** : Verrouilleur d’écran pour i3wm.
+- **i3status** : Génère des informations système pour la barre d’état i3.
+- **jq** : Outil en ligne de commande pour manipuler du JSON.
+- **lightdm** : Gestionnaire d’écran de connexion léger.
+- **lightdm-slick-greeter** : Greeter (interface de connexion) moderne pour LightDM.
+- **nwg-look** : Outil pour configurer l’apparence GTK sous Wayland/X11.
+- **mpv** : Lecteur multimédia en ligne de commande.
+- **network-manager-applet** : Applet graphique pour gérer les connexions réseau.
+- **numlockx** : Active NumLock au démarrage.
+- **playerctl** : Contrôle les lecteurs multimédias compatibles MPRIS.
+- **polkit-gnome** : Authentification graphique pour les actions administratives.
+- **rofi** : Lanceur d’applications et switcher de fenêtres avancé.
+- **scrot** : Outil de capture d’écran en ligne de commande.
+- **sysstat** : Outils pour surveiller les performances système (iostat, sar, etc.).
+- **thunar** : Gestionnaire de fichiers léger (XFCE).
+- **thunar-archive-plugin** : Plugin pour gérer les archives dans Thunar.
+- **thunar-volman** : Gestion automatique des périphériques amovibles dans Thunar.
+- **tumbler** : Générateur de vignettes pour fichiers multimédias.
+- **unzip** : Outil pour extraire des fichiers ZIP.
+- **xarchiver** : Gestionnaire d’archives graphique léger.
+- **xbindkeys** : Permet d’assigner des commandes à des raccourcis clavier.
+- **xdg-user-dirs-gtk** : Gère les dossiers utilisateurs standards (Documents, Images, etc.).
+- **xed** : Éditeur de texte simple basé sur Pluma.
+- **xfce4-terminal** : Terminal graphique léger pour XFCE.
+- **xorg-xdpyinfo** : Affiche des informations sur l’affichage Xorg.
+- **xss-lock** : Verrouille l’écran lors de la mise en veille.
+- **zip** : Outil pour compresser des fichiers au format ZIP.
