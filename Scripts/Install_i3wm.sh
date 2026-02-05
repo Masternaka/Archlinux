@@ -71,6 +71,10 @@ print_info "=========================================="
 sudo pacman -S --needed --noconfirm
         lxappearance
         polkit-gnome
+        qt5ct
+        qt6ct
+        kvantum
+        kvantum-qt5
 
 print_info "=========================================="
 print_info "Installation des paquets - Gestionnaire de fichiers"
