@@ -53,17 +53,28 @@ sudo pacman -S --needed --noconfirm
         dmenu
         xorg-server
         xorg-xinit
+        xorg-xbacklight
+        xbindkeys
+        xvkbd
+        xorg-xinput
+        base-devel
+        sxhkd
+        xdotool
+        libnotify
+        arandr
 
 print_info "=========================================="
 print_info "Installation des paquets - Utilitaires i3"
 print_info "=========================================="
 sudo pacman -S --needed --noconfirm
-        autotiling
+        picom
         rofi
         dunst
-        picom
         nitrogen
         feh
+        network-manager-applet
+        lxsession
+        autotiling
 
 print_info "=========================================="
 print_info "Installation des paquets - Apparence"
@@ -77,14 +88,43 @@ sudo pacman -S --needed --noconfirm
         kvantum-qt5
 
 print_info "=========================================="
+print_info "Installation des paquets - Polices"
+print_info "=========================================="
+sudo pacman -S --needed --noconfirm
+        otf-firamono-nerd
+        ttf-jetbrains-mono-nerd
+        ttf-meslo-nerd
+        noto-fonts
+
+# Installation des paquets - Terminal et outils
+print_info "=========================================="
+print_info "Installation des paquets - Terminal et outils"
+print_info "=========================================="
+sudo pacman -S --needed --noconfirm
+        alacritty
+        kitty
+        xterm
+        git
+        btop
+        fastfetch
+
+print_info "=========================================="
 print_info "Installation des paquets - Gestionnaire de fichiers"
 print_info "=========================================="
 sudo pacman -S --needed --noconfirm
         thunar
         thunar-archive-plugin
         thunar-volman
+        thunar-shares-plugin
         gvfs
         gvfs-mtp
+        dialog 
+        mtools 
+        smbclient 
+        cifs-utils 
+        ripgrep 
+        fd 
+        unzip
 
 print_info "=========================================="
 print_info "Installation des paquets - Audio et système"
@@ -93,7 +133,27 @@ sudo pacman -S --needed --noconfirm
         volumeicon
         pulseaudio
         pavucontrol
+        pulsemixer
+        pamixer 
+        pipewire-audio 
+        pipewire-pulse
 
+print_info "=========================================="
+print_info "Installation des paquets - Utilitaires"
+print_info "=========================================="
+sudo pacman -S --needed --noconfirm
+        avahi 
+        acpi 
+        acpid 
+        xfce4-power-manager
+        flameshot 
+        ristretto 
+        firefox 
+        micro 
+        xdg-user-dirs-gtk
+        polkit-gnome
+        volumeicon
+        
 # Installation de yay (gestionnaire AUR)
 print_info "=========================================="
 print_info "Installation de yay - Gestionnaire AUR"
@@ -117,7 +177,6 @@ fi
 print_info "=========================================="
 print_info "Installation des paquets AUR"
 print_info "=========================================="
-# Ajoutez ici les paquets AUR que vous souhaitez installer
 yay -S --needed --noconfirm
         catppuccin-gtk-theme-mocha
         catppuccin-qt5ct-git
@@ -127,17 +186,6 @@ yay -S --needed --noconfirm
 
 print_info "Aucun paquet AUR à installer pour le moment"
 print_info "Modifiez cette section pour ajouter vos paquets AUR préférés"
-
-# Installation des paquets - Terminal et outils
-print_info "=========================================="
-print_info "Installation des paquets - Terminal et outils"
-print_info "=========================================="
-sudo pacman -S --needed --noconfirm
-        alacritty
-        xterm
-        git
-        vim
-        btop
 
 # Créer les répertoires de configuration s'ils n'existent pas
 print_info "Création des répertoires de configuration..."
